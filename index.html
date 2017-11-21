@@ -4,7 +4,7 @@
 	<style>
 	div.container {
 	    width: 1200px;
-	    border: 1px;
+	    border: 0px;
 			margin: 0 auto;
 	}
 
@@ -29,6 +29,7 @@
 		padding: 10px;
 		width: 40%;
 	}
+
 	footer {
 			padding: 1em
 			color: white;
@@ -48,15 +49,32 @@
 		text-align: center;
 	}
 
+	.year {
+		font-size: 70px;
+		color: brown;
+		text-align: center;
+		background-color: black;
+		font-family: sans-serif;
+		border: 10px;
+		border-color: white;
+	}
+
 	table#main-content {
+			font-family: "Arial", sans-serif;
+			color: white;
+			font-size: 13px;
 			table-layout: fixed;
-			border: 10px;
-	    border-style: solid;
-			border-color: black;
 	    overflow: hidden;
+			background-color: black;
+	}
+	table#main-content th{
+		padding: 5px;
+		border: 1px;
+		border-style: solid;
+		border-color: white;
 	}
 	table#main-content td{
-		padding: 30px;
+		padding: 5px;
 	}
 
 
@@ -86,23 +104,27 @@
 
 	<table id="main-content">
 	<tr>
-		<td> August 27th, 2017<br>
+		<td class="year" colspan="4">2017</td>
+	</tr>
+
+	<tr>
+		<td>
+			<a href="assets/papers/remarksonbirkhoff.pdf"><img src="assets/papers/remarksonbirkhoff.png" alt="Remarks on Birkhoff's Theorem" height=inherit width=70px/></a>
+		</td>
+		<td> August 27, 2017<br>
 			Remarks on Birkhoff's Theorem <br>
 			<br>
 			Donald Jordan Pierce <br>
   	  I present an explanation of Birkhoff's thoerem which illuminates why mass in vacuum solutions to Einstein's equations must be static.
 		</td>
-		<td> August 27th, 2017<br>
+		<td>
+			<a href="assets/papers/remarksonbirkhoff.pdf"><img src="assets/papers/remarksonbirkhoff.png" alt="Remarks on Birkhoff's Theorem" height=inherit width=70px/></a>
+		</td>
+		<td> August 27, 2017<br>
 			Remarks on Birkhoff's Theorem <br>
 			<br>
 			Donald Jordan Pierce <br>
 	    I present an explanation of Birkhoff's thoerem which illuminates why mass in vacuum solutions to Einstein's equations must be static.
-		</td>
-		<td> August 27th, 2017<br>
-			Remarks on Birkhoff's Theorem <br>
-			<br>
-			Donald Jordan Pierce <br>
-			I present an explanation of Birkhoff's thoerem which illuminates why mass in vacuum solutions to Einstein's equations must be static.
 		</td>
 	</tr>
 	</table>
