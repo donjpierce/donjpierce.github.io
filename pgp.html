@@ -129,7 +129,7 @@
 	<p>
 	</p>
 <p align="center">
-<button id="button">Copy Key To Clipboard</button>
+<button id="button" onclick="copyFunction()">Copy Key To Clipboard</button>
 </p>
 
 <div class="container">
@@ -199,7 +199,7 @@
 		document.body.append(textArea);
 		textArea.select();
   	document.execCommand("copy");
-	}
+	};
 	document.getElementById('button').addEventListening('click', copyFunction);
 </script>
 </body>
